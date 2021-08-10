@@ -1,0 +1,77 @@
+
+
+/* electrician-template home top section*/
+.et-home-top {
+    overflow: hidden;
+    width:100%;
+    height:100vh;
+    text-align:center;
+    color:#fff;
+  }
+  
+  .et-home-top-first {
+    width:100%;
+    height:100%;
+    text-align:center;
+    background-size: 100% 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-animation: zoomin 15s ease-in infinite;
+    animation: zoomin 15s ease-in infinite;
+    transition: all .10s ease-in-out;
+    overflow: hidden;
+    user-select: none;
+  }
+  
+  /* The innermost element*/
+  .et-home-top-second {
+    width:100%;
+    height:100%;
+    text-align:center;
+    background: none;
+    -webkit-animation: zoomout 15s ease-in infinite;
+    animation: zoomout 15s ease-in infinite;
+    transition: all .10s ease-in-out;
+    overflow: hidden;
+  }
+  
+  
+  
+  /* Zoom in Keyframes */
+  @-webkit-keyframes zoomin {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.5);}
+    100% {transform: scale(1);}
+  }
+  @keyframes zoomin {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.5);}
+    100% {transform: scale(1);}
+  } /*End of Zoom in Keyframes */
+  
+  /* Zoom out Keyframes */
+  @-webkit-keyframes zoomout {
+    0% {transform: scale(1);}
+    50% {transform: scale(0.67);}
+    100% {transform: scale(1);}
+  }
+  @keyframes zoomout {
+      0% {transform: scale(1);}
+    50% {transform: scale(0.67);}
+    100% {transform: scale(1);}
+  }/*End of Zoom out Keyframes */
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
