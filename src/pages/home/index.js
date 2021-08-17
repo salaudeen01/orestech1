@@ -1,7 +1,7 @@
 import React from 'react'
 import TopBar from '../../components/layout/header'
 import Top from '../../components/layout/header/Top'
-import HomeTop from '../../components/pages/home/HomeTop'
+import { HomeTop, HomeAbout, HomeServices } from '../../components/pages/home'
 
 function Home() {
     return (
@@ -9,6 +9,8 @@ function Home() {
             <Top/>
             <TopBar/>
             <HomeTop/>
+            <HomeAbout/>
+            <HomeServices/>
         </div>
     )
 }

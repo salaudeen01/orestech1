@@ -11,11 +11,17 @@ function TopBar() {
         window.addEventListener('scroll', function() {
             if (window.pageYOffset > 50) {
               document.getElementById('navbar').classList.add('fixed-top');
+              document.getElementById('navbar').classList.add('shadow');
+              document.getElementById('navbar').style.minHeight='10px';
+
+            //   document.getElementById('navbar').classList.remove('position-absolute');
               // add padding top to show content behind navbar
               let navbar_height = document.querySelector('.navbar').offsetHeight;
               document.body.style.paddingTop = navbar_height + 'px';
             } else {
               document.getElementById('navbar').classList.remove('fixed-top');
+              document.getElementById('navbar').classList.remove('shadow');
+              document.getElementById('navbar').style.minHeight='115px';
                // remove padding top from body
               document.body.style.paddingTop = '0';
             } 

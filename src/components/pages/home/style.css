@@ -1,6 +1,19 @@
+.text-orng{
+  color: rgb(255, 131, 49);
+}
+.text-ld{
+  color: rgba(75, 74, 74, 0.89);
+}
+.text-dk{
+  color: rgba(44, 41, 53, 0.89);
+}
+.text-ls{
+  color: rgba(98, 98, 98, 0.89);
+}
 
 
-/* electrician-template home top section*/
+
+/* electrician-template home top section starts here >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .et-home-top {
     overflow: hidden;
     width:100%;
@@ -12,66 +25,272 @@
   .et-home-top-first {
     width:100%;
     height:100%;
+    /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/3.jpg); */
     text-align:center;
-    background-size: 100% 100%;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -webkit-animation: zoomin 15s ease-in infinite;
-    animation: zoomin 15s ease-in infinite;
-    transition: all .10s ease-in-out;
-    overflow: hidden;
-    user-select: none;
+    background-size: 100% 100%; 
+  }
+
+  .et-home-top-first div {
+      width: 100%;
+      height: 100%;
+      /* display: flex; */
+      position: absolute;
+      background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+      top: 50px;
+      left: 0px;
+      right: 0px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: none;
+      opacity: 0;
+      -webkit-backface-visibility: hidden;
+      -webkit-animation: imageAnimation 18s linear infinite 0s;
+      backface-visibility: hidden;
+      animation: imageAnimation 18s linear infinite 0s;
   }
   
-  /* The innermost element*/
-  .et-home-top-second {
-    width:100%;
-    height:100%;
-    text-align:center;
-    background: none;
-    -webkit-animation: zoomout 15s ease-in infinite;
-    animation: zoomout 15s ease-in infinite;
-    transition: all .10s ease-in-out;
-    overflow: hidden;
+  .et-home-top-first div:nth-child(1){
+    width: 100%;
+    height: 100vh; 
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./images/1.jpg);
+    background-repeat: no-repeat; 
+  }
+  .et-home-top-first div:nth-child(2){
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./images/2.jpg); background-repeat: no-repeat;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+  }
+  .et-home-top-first div:nth-child(3){
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./images/3.jpg); background-repeat: no-repeat;
+    -webkit-animation-delay: 12s;
+    animation-delay: 12s;
   }
   
-  
-  
-  /* Zoom in Keyframes */
-  @-webkit-keyframes zoomin {
-    0% {transform: scale(1);}
-    50% {transform: scale(1.5);}
-    100% {transform: scale(1);}
+  @-webkit-keyframes imageAnimation { 
+    0% {
+        opacity: 0;
+        -webkit-animation-timing-function: ease-in;
+    }
+    8% {
+        opacity: 1;
+        -webkit-transform: scale(1.05);
+        -webkit-animation-timing-function: ease-out;
+    }
+    17% {
+        opacity: 1;
+        -webkit-transform: scale(1.1);
+    }
+    22% {
+      opacity: 0;
+      -webkit-transform: scale(1.1) translateY(-20%);
+    }
+    25% {
+        opacity: 0;
+        -webkit-transform: scale(1.1) translateY(-100%);
+    }
+    100% { opacity: 0 }
   }
-  @keyframes zoomin {
-    0% {transform: scale(1);}
-    50% {transform: scale(1.5);}
-    100% {transform: scale(1);}
-  } /*End of Zoom in Keyframes */
-  
-  /* Zoom out Keyframes */
-  @-webkit-keyframes zoomout {
-    0% {transform: scale(1);}
-    50% {transform: scale(0.67);}
-    100% {transform: scale(1);}
+  @keyframes imageAnimation { 
+    0% {
+        opacity: 0;
+        animation-timing-function: ease-in;
+    }
+    8% {
+        opacity: 1;
+        transform: scale(1.05);
+        animation-timing-function: ease-out;
+    }
+    17% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    22% {
+      opacity: 0;
+      -webkit-transform: scale(1.1) translateY(-20%);
+    }
+    25% {
+        opacity: 0;
+        -transform: scale(1.1) translateY(-100%);
+    }
+    100% { opacity: 0 }
   }
-  @keyframes zoomout {
-      0% {transform: scale(1);}
-    50% {transform: scale(0.67);}
-    100% {transform: scale(1);}
-  }/*End of Zoom out Keyframes */
+
+  .et-home-top-orng{
+    height: 45px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: rgb(255, 131, 49);
+  }
+
+  .et-home-top-ryl{
+    height: 100px;
+    padding: 30px 0px;
+    background-color: rgba(1, 1, 32, 0.835);
+  }
   
+  .et-home-top-button{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: rgb(255, 131, 49);
+    border: none;
+    border-radius: 5px;
+    padding: 0px 20px;
+  }
+  .et-home-top-button:hover{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 131, 49);
+    background-color: white;
+    border: 1px solid rgb(255, 131, 49);
+  }
+/* electrician-template home top section ends here >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
   
+
+/* electrician-template home about section starts here >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+  .et-home-about{
+    width: 100%;
+    height: 100vh;
+  }
+
+  .et-home-about-img{
+    margin: -180px 0 0 -30px;
+    height: 100px;
+  }
+  .et-home-about-img img{
+    width: inherit;
+  }
   
-  
-  
-  
-  
-  
+  .et-home-about-text{
+    font-family: sans-serif;
+    height: 80vh;
+    margin: 35px 0 0 -110px;
+    padding: 70px 0px 0px 75px;
+  }
+/* electrician-template home about section ends here >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 
 
 
 
+/* electrician-template home services section start here >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.et-home-services{
+  width: 100%;
+}
+.et-h-s-f{
+  height: 80vh;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/commercial.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.et-h-s-s{
+  height: 80vh;
+  background: linear-gradient(rgba(128, 102, 247, 0.376),rgba(119, 110, 248, 0.322)), url(./images/industrial.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.et-h-s-t{
+  height: 80vh;
+  background: linear-gradient(rgba(80, 78, 78, 0.37),rgba(80, 80, 80, 0.5)), url(./images/residential.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+  
+  .hover-zoom {
+    background-size: cover;
+    transform: scale(1, 1);
+    transition: transform 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .hover-zoom:hover {
+    transition: 0.5s;
+    transform: scale(1, 1.09);
+    background-size: 120%;
+  }
+  .et-h-s-text{
+    color: white;
+  }
+  .et-h-s-text img{
+    opacity: 0.5;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .et-h-s-text-btn{
+    position: relative;
+    top: 20px;
+    padding: 20px;
+    font-size: large;
+    background-color: rgb(255, 131, 49);
+  }
+  .et-h-s-text-btn:hover{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 131, 49);
+    background: white;
+  }
+
+
+  .et-h-s-slides{
+    margin: 100px auto;
+  }
+  .et-h-s-bulb{
+    color: white;
+  }
+  .et-h-s-bulb img{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-repeat: no-repeat;
+  }
+  .et-h-s-bulb .et-h-s-bulb-1{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/electric.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .et-h-s-bulb .et-h-s-bulb-2{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/heater.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .et-h-s-bulb .et-h-s-bulb-3{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/ac.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .et-h-s-bulb .et-h-s-bulb-4{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/ac.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .et-h-s-bulb .et-h-s-bulb-5{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/camera.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .et-h-s-bulb .et-h-s-bulb-6{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/electric.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .et-h-s-bulb-icon{
+    position: relative;
+    top: -180px;
+    font-size: 50px;
+  }
+  .et-h-s-bulb:hover{
+    color: rgb(255, 131, 49);
+  }
+  .et-h-s-bulb img:hover{
+    background-size: 220%;
+    background-repeat: no-repeat;
+    transition: 5s ease-in-out;
+    color: rgb(255, 131, 49);
+  }
+
+/* electrician-template home services section ends here >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 

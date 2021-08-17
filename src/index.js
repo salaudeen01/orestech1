@@ -6,6 +6,7 @@ import { createStore } from 'redux';
 import Routes from './App';
 import reducers from './redux/reducers';
 import reportWebVitals from './reportWebVitals';
+import 'antd/dist/antd.css'
 
 
 const history = createBrowserHistory()

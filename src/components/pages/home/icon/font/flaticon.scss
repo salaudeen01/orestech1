@@ -1,0 +1,45 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?a526a19165444d53f3fd75f05148d0ca") format("truetype"),
+url("./flaticon.woff?a526a19165444d53f3fd75f05148d0ca") format("woff"),
+url("./flaticon.woff2?a526a19165444d53f3fd75f05148d0ca") format("woff2"),
+url("./flaticon.eot?a526a19165444d53f3fd75f05148d0ca#iefix") format("embedded-opentype"),
+url("./flaticon.svg?a526a19165444d53f3fd75f05148d0ca#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "radiator": "\f101",
+    "cctv": "\f102",
+    "air-conditioner": "\f103",
+    "idea": "\f104",
+    "chip": "\f105",
+);
+
+.flaticon-radiator:before {
+    content: map-get($flaticon-map, "radiator");
+}
+.flaticon-cctv:before {
+    content: map-get($flaticon-map, "cctv");
+}
+.flaticon-air-conditioner:before {
+    content: map-get($flaticon-map, "air-conditioner");
+}
+.flaticon-idea:before {
+    content: map-get($flaticon-map, "idea");
+}
+.flaticon-chip:before {
+    content: map-get($flaticon-map, "chip");
+}
