@@ -3,7 +3,7 @@ import './style.css'
 
 function Top() {
     return (
-        <div className="elect-top w-100 d-none d-md-block">
+        <div className="elect-top w-100 d-none d-md-block ff-pop">
             <div className="container-fluid py-3">
                 <div className="float-start">
                    <span className="mx-5">

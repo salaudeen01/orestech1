@@ -1,0 +1,131 @@
+.text-orng{
+    color: rgb(255, 131, 49);
+  }
+  .text-ld{
+    color: rgba(75, 74, 74, 0.89);
+  }
+  .text-dk{
+    color: rgb(44, 41, 53);
+  }
+  .text-ls{
+    color: rgba(98, 98, 98, 0.89);
+  }
+  .text-li{
+    color: rgba(144, 142, 142, 0.89);
+  }
+  .hover-orng:hover{
+    transition: 0.3s ease-in-out;
+    color: rgb(255, 131, 49);
+    cursor: pointer;
+  }
+  .border-start.border-4.border-danger{
+    border-color: rgb(255, 131, 49);
+  }
+  .text-big{
+    font-size: 60px;
+    font-weight: 900;
+  }
+  .fs-icon{
+      font-size: 30px;
+  }
+  .font-fam{
+    font-family: sans-serif;
+  }
+  .shift-top{
+    margin: -15px 0px;
+  }
+  .ff-pop{
+    font-family: 'Poppins', sans-serif;
+  }
+  .border-danger{
+    border-color:  rgb(255, 131, 49);
+  }
+  .bg-orng{
+    background-color: rgb(255, 131, 49);
+  }
+  .bg-li{
+    background-color: rgba(248, 248, 248, 0.89);
+  }
+  .bold-sm{
+    font-weight:600;
+  }
+  .pr-10{
+    padding-right: 100px;
+  }
+  .pr-6{
+    padding-right: 60px;
+  }
+  .hover-opa:hover{
+    transition: 0.5s ease-in-out;
+    opacity: 0.5;
+  }
+  .my-8{
+    margin: 80px 0px;
+  }
+  .mt-8{
+    margin: 80px 0px 0px 0px;
+  }
+  
+  .mt-10{
+    margin-top: 100px;
+  }
+  .w-95{
+    width: 95%;
+    min-height: 280px ;
+  }
+  .w-90{
+    width: 90%;
+  }
+  .w-85{
+    width: 85%;
+    height: 280px ;
+  }
+  .h-10{
+    min-height: 120vh;
+  }
+  .h-dd{
+    /* height: ; */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About page aboutTop section starts here >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.lin-bg-sec{
+    width: 100%;
+    height: 15vh;
+    padding: 1%;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../../images/industrial.jpg);
+    background-size: cover;
+} 
+.et-s-i-card{
+  position: relative;
+  margin: -50px 0px;
+}
+.et-s-i-asst{
+  margin: 150px 0px;
+}
+.accordion .accordion-item .accordion-header{
+  border: 0px 0px 0px 3px solid rgb(255, 131, 49);
+
+}
+.accordion .accordion-item{
+  border: 0px 0px 0px 3px solid rgb(255, 131, 49);
+
+}
+.accordion .accordion-item .accordion-header .accordion-button{
+}
+.accordion-border{
+  border-left: 4px solid rgb(255, 131, 49);
+  /* border: 3px solid rgb(255, 131, 49); */
+}

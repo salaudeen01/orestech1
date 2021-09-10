@@ -1,16 +1,34 @@
 import React from 'react'
-import TopBar from '../../components/layout/header'
+// import { MobileViewNav, WebViewNav } from '../../components/layout/header'
+import { HomeAbout, HomeBlogs, HomeGallery, HomeServices, HomeShop, HomeTop } from '../../components/pages/home'
+import Footer from '../../components/layout/footer'
 import Top from '../../components/layout/header/Top'
-import { HomeTop, HomeAbout, HomeServices } from '../../components/pages/home'
+import TopBar from '../../components/layout/header'
 
 function Home() {
     return (
         <div className="w-100">
+
+            {/* navbar section  */}
             <Top/>
-            <TopBar/>
+            <TopBar active="home" />
+
+            {/* home components  */}
             <HomeTop/>
+            <br/>
             <HomeAbout/>
+            <br/>
             <HomeServices/>
+            <br/>
+            <HomeGallery/>
+            <br/>
+            <HomeShop/>
+            <br/>
+            <HomeBlogs/>
+            <br/>
+
+            {/* footer  */}
+            <Footer/>
         </div>
     )
 }

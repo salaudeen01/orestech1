@@ -1,0 +1,252 @@
+.text-orng{
+    color: rgb(255, 131, 49);
+  }
+  .text-ld{
+    color: rgba(75, 74, 74, 0.89);
+  }
+  .text-dk{
+    color: rgb(44, 41, 53);
+  }
+  .text-ls{
+    color: rgba(98, 98, 98, 0.89);
+  }
+  .text-li{
+    color: rgba(144, 142, 142, 0.89);
+  }
+  .hover-orng:hover{
+    transition: 0.3s ease-in-out;
+    color: rgb(255, 131, 49);
+    cursor: pointer;
+  }
+  .border-start.border-4.border-danger{
+    border-color: rgb(255, 131, 49);
+  }
+  .text-big{
+    font-size: 60px;
+    font-weight: 900;
+  }
+  .fs-icon{
+      font-size: 30px;
+  }
+  .font-fam{
+    font-family: sans-serif;
+  }
+  .shift-top{
+    margin: -15px 0px;
+  }
+  .ff-pop{
+    font-family: 'Poppins', sans-serif;
+  }
+  .border-danger{
+    border-color:  rgb(255, 131, 49);
+  }
+  .bold-sm{
+    font-weight:600;
+  }
+  .pr-10{
+    padding-right: 100px;
+  }
+  .pr-6{
+    padding-right: 60px;
+  }
+  .hover-opa:hover{
+    transition: 0.5s ease-in-out;
+    opacity: 0.5;
+  }
+  .my-8{
+    margin: 80px 0px;
+  }
+  .mt-8{
+    margin: 80px 0px 0px 0px;
+  }
+  
+  .mt-10{
+    margin-top: 100px;
+  }
+  .w-95{
+    width: 95%;
+    min-height: 280px ;
+  }
+  .w-90{
+    width: 90%;
+  }
+  .w-85{
+    width: 85%;
+    height: 280px ;
+  }
+  .h-10{
+    min-height: 120vh;
+  }
+  .h-point:hover{
+    cursor: pointer;
+  }
+
+  .li-st{
+    list-style-type: circle;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About page aboutTop section starts here >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.lin-bg-sec{
+    width: 100%;
+    height: 15vh;
+    padding: 1%;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../../images/industrial.jpg);
+    background-size: cover;
+} 
+.et-home-about-text{
+    font-family: sans-serif;
+    min-height: 80vh;
+    margin: 35px 0 0 -110px;
+    padding: 70px 0px 0px 75px;
+  }
+  .et-home-about-text-mob{
+    width: 95%;
+    font-family: sans-serif;
+    min-height: 80vh;
+    margin: -10% 0%;
+    padding: 10% 0%;
+  }
+
+
+
+
+
+
+
+
+
+
+/* About page aboutTop section starts here >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+  .et-s-t-img, .et-s-t-img-mob{
+    margin: -20% 0 0 -5%;
+    min-height: 100px;
+    position: relative;
+  }
+
+  .et-s-t-img-mob img{
+    min-height: 100px;
+  }
+  .et-s-t-img img{
+    min-width: inherit;
+  }
+  
+  .et-s-t-text{
+    /* width: 100%; */
+    position: relative;
+    font-family: sans-serif;
+    min-height: 80vh;
+    margin: 35px 0 0 -110px;
+    padding: 70px 0px 0px 75px;
+  }
+
+
+/* About page aboutServices section starts here >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.number-card{
+    height: 0px;
+    margin: -65px 0;
+    padding: 0;
+    font-family: sans-serif;
+    position: absolute;
+    font-size: 200px;
+    font-weight: bolder;
+    color: rgba(187, 184, 184, 0.623);
+}
+.number-card-overlay{
+    position: relative;
+    width: 90%;
+    height: 30vh;
+    margin: 0% 0% 0% 43px;
+    background-color: white;
+}
+.et-about-service-card-con{
+    min-height: 110vh;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../../images/bg-p-0.jpg) left no-repeat, url(../../images/5.jpg) right no-repeat;
+    background-size: auto, 30% 100%, 70% 100%;
+  }
+  .et-about-service-card-con-mob{
+    min-height: 110vh;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../../images/5.jpg) no-repeat;
+    background-size: auto, 100% 100%;
+  }
+
+.et-about-service-card{
+    width: 45vw;
+    min-height: 75vh;
+    margin: 5% 10%;
+    padding: 80px;
+  }
+  .et-about-service-card-mob{
+    width: 90%;
+    min-height: 75vh;
+    margin: 90px auto;
+    padding: 10px;
+  }
+  
+
+
+
+
+  .et-a-s-bulb{
+    color: white;
+  }
+  .et-a-s-bulb img{
+    background: linear-gradient(rgba(0,0,0,0.5));
+    background-repeat: no-repeat;
+  }
+  .et-a-s-bulb .et-a-s-bulb-1{
+    background: url(../../images/workers/elect1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .et-a-s-bulb .et-a-s-bulb-2{
+    background: url(../../images/workers/elect2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .et-a-s-bulb .et-a-s-bulb-3{
+    background: url(../../images/workers/elect3.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .et-a-s-bulb .et-a-s-bulb-4{
+    background: url(../../images/workers/elect3.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .et-a-s-bulb .et-a-s-bulb-5{
+    background: url(../../images/workers/elect1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .et-a-s-bulb .et-a-s-bulb-6{
+    background: url(../../images/workers/elect2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .et-a-s-bulb-icon{
+    position: relative;
+    top: -180px;
+    font-size: 50px;
+  }
+  .et-a-s-bulb:hover{
+    color: rgb(255, 131, 49);
+  }
+  .et-a-s-bulb img:hover{
+    background-size: 220%;
+    background-repeat: no-repeat;
+    transition: 5s ease-in-out;
+    color: rgb(255, 131, 49);
+  }

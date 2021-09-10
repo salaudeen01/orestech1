@@ -1,12 +1,20 @@
+import HomeTop from "./HomeTop"
+import HomeAbout from "./HomeAbout"
+import HomeServices from "./HomeServices"
+import HomeGallery from "./HomeGallery"
+import HomeShop from "./HomeShop"
+import HomeBlogs from "./HomeBlogs"
+
+
 import './style.css'
 import './icon/font/flaticon.css'
-import HomeTop from "./HomeTop";
-import HomeAbout from "./HomeAbout";
-import HomeServices from "./HomeServices";
 
 
 export {
     HomeTop,
     HomeAbout,
-    HomeServices
+    HomeServices,
+    HomeGallery,
+    HomeShop,
+    HomeBlogs
 }
