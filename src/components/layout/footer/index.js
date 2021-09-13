@@ -31,7 +31,7 @@ function Footer() {
                     <div className="row">
                         <div className="col-md-3">
                             <div>
-                                <Link className="footer-brand fw-bold" href="#"><img src="resources/images/logo-dark.png" alt="logo" width="25px" height="50px" /><span>Electrician</span></Link>
+                                <Link to="/" className="footer-brand fw-bold" href="#"><img src="resources/images/logo-dark.png" alt="logo" width="25px" height="50px" /><span>Electrician</span></Link>
                             </div>
                         </div>
 
@@ -48,16 +48,16 @@ function Footer() {
                         <div className="col-md-3">
                             <div className="row">
                                 <div className="col-6">
-                                    <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link className="et-f-links">Home</Link></p>
-                                    <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link className="et-f-links">About Us</Link></p>
-                                    <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link className="et-f-links">Services</Link></p>
-                                    <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link className="et-f-links">Prices</Link></p>
+                                    <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/" className="et-f-links">Home</Link></p>
+                                    <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/about" className="et-f-links">About Us</Link></p>
+                                    <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/service" className="et-f-links">Services</Link></p>
+                                    <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/price" className="et-f-links">Prices</Link></p>
                                 </div>
                                 <div className="col-6">
-                                    <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link className="et-f-links">Gallery</Link></p>
-                                    <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link className="et-f-links">Shop</Link></p>
-                                    <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link className="et-f-links">FAQ</Link></p>
-                                    <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link className="et-f-links">Contacts</Link></p>
+                                    <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/gallery" className="et-f-links">Gallery</Link></p>
+                                    <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/shop" className="et-f-links">Shop</Link></p>
+                                    <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/faq" className="et-f-links">FAQ</Link></p>
+                                    <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/contact" className="et-f-links">Contacts</Link></p>
                                 </div>
                             </div>
                         </div>
@@ -129,7 +129,7 @@ function Footer() {
                 <div className="et-f-mob mt-big py-1">
                     <div className="container-fluid">
                         <div className="text-center my-3">
-                            <Link className="footer-brand-mob fw-bold" href="#"><img src="resources/images/logo-dark.png" alt="logo" width="25px" height="30px" /><span>Electrician</span></Link>
+                            <Link to="/" className="footer-brand-mob fw-bold" href="#"><img src="resources/images/logo-dark.png" alt="logo" width="25px" height="30px" /><span>Electrician</span></Link>
                         </div>
                         <div className="text-center my-3">
                             <p className="fs-7 text-lit">Our experienced electricians are highly trained in all aspects of electrical service, from office lighting and security systems to emergency repair.</p>
@@ -139,16 +139,16 @@ function Footer() {
                             <div className="col-md-3">
                                 <div className="row">
                                     <div className="col-6">
-                                        <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link className="et-f-links">Home</Link></p>
-                                        <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link className="et-f-links">About Us</Link></p>
-                                        <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link className="et-f-links">Services</Link></p>
-                                        <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link className="et-f-links">Prices</Link></p>
+                                        <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/" className="et-f-links">Home</Link></p>
+                                        <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/about" className="et-f-links">About Us</Link></p>
+                                        <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/service" className="et-f-links">Services</Link></p>
+                                        <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/price" className="et-f-links">Prices</Link></p>
                                     </div>
                                     <div className="col-6">
-                                        <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link className="et-f-links">Gallery</Link></p>
-                                        <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link className="et-f-links">Shop</Link></p>
-                                        <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link className="et-f-links">FAQ</Link></p>
-                                        <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link className="et-f-links">Contacts</Link></p>
+                                        <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/gallery" className="et-f-links">Gallery</Link></p>
+                                        <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/shop" className="et-f-links">Shop</Link></p>
+                                        <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/faq" className="et-f-links">FAQ</Link></p>
+                                        <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/contact" className="et-f-links">Contacts</Link></p>
                                     </div>
                                 </div>
                             </div>
