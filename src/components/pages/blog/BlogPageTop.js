@@ -4,7 +4,6 @@ import { Calendar, Carousel, Input } from 'antd'
 import React from 'react'
 import { Link } from 'react-router-dom'
 import obj1 from '../../images/pages/service/item/obj1.jpg'
-import obj2 from '../../images/pages/service/item/obj2.jpg'
 import top from '../../images/pages/blog/blogtop.jpg'
 import sl1 from '../../images/pages/blog/slide1.1.jpg'
 import sl2 from '../../images/pages/blog/slide1.2.jpg'
@@ -142,14 +141,14 @@ function BlogPageTop() {
                                         <nav aria-label="Page navigation example border-0">
                                         <ul class="pagination border-0">
                                             <li class="page-item">
-                                            <a class="page-link" href="#" aria-label="Previous">
+                                            <a class="page-link" href="#index" aria-label="Previous">
                                                 <span aria-hidden="true">&laquo;</span>
                                             </a>
                                             </li>
-                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#index">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#index">2</a></li>
                                             <li class="page-item">
-                                            <a class="page-link" href="#" aria-label="Next">
+                                            <a class="page-link" href="#index" aria-label="Next">
                                                 <span aria-hidden="true">&raquo;</span>
                                             </a>
                                             </li>

@@ -49,7 +49,7 @@ function TopBar({active}) {
                     <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarScroll">
-                    <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style={{maxHeight: '150px'}}>
+                    <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll mx-md-auto" style={{maxHeight: '150px'}}>
                         <li className="nav-item py-md-2 px-md-2">
                         <Link to="/" className={`nav-link ${active=== 'home'?'active':''}`} aria-current="page" href="#">Home</Link>
                         </li>
@@ -65,21 +65,21 @@ function TopBar({active}) {
                             <li><Link to="/serviceItems" href="#" className={`dropdown-item ${active=== 'serviceItem'?'active':''}`}>Services Item</Link></li>
                         </ul>
                         </li>
-                        <li className="nav-item py-md-2 px-md-2">
+                        {/* <li className="nav-item py-md-2 px-md-2">
                         <Link to="/price" className={`nav-link ${active=== 'prices'?'active':''}`} aria-current="page" href="#">Prices</Link>
-                        </li>
+                        </li> */}
                         <li className="nav-item py-md-2 px-md-2">
                         <Link to="/gallery" className={`nav-link ${active=== 'gallery'?'active':''}`} aria-current="page" href="#">Gallery</Link>
                         </li>
-                        <li className="nav-item py-md-2 px-md-2 dropdown">
+                        {/* <li className="nav-item py-md-2 px-md-2 dropdown">
                         <Link to="/blog" className={`nav-link dropbtn ${active=== 'blog'?'active':''}`}>Blog</Link>
                         <ul class="dropdown-content">
                             <li><Link to="/blogItems" href="#" className={`dropdown-item ${active=== 'blogItem'?'active':''}`}>Blog Item</Link></li>
                         </ul>
-                        </li>
-                        <li className="nav-item py-md-2 px-md-2">
+                        </li> */}
+                        {/* <li className="nav-item py-md-2 px-md-2">
                         <Link to="/shop" className={`nav-link ${active=== 'shop'?'active':''}`} aria-current="page" href="#">Shop</Link>
-                        </li>
+                        </li> */}
                         <li className="nav-item py-md-2 px-md-2">
                         <Link to="/faq" className={`nav-link ${active=== 'faq'?'active':''}`} aria-current="page" href="#">Faq</Link>
                         </li>

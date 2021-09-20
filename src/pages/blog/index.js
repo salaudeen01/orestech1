@@ -2,7 +2,7 @@ import React from 'react'
 import TopBar from '../../components/layout/header'
 import Top from '../../components/layout/header/Top'
 import Footer from '../../components/layout/footer'
-import { BlogPageSection, BlogPageTop } from '../../components/pages/blog'
+import { BlogPageTop } from '../../components/pages/blog'
 
 function Blog() {
     return (
@@ -13,7 +13,6 @@ function Blog() {
 
             {/* content section >>>>>>>> */}
             <BlogPageTop/>
-            {/* <BlogPageSection/> */}
             <br/>
 
             {/* footer section >> */}

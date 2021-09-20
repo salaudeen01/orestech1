@@ -2,7 +2,7 @@ import React from 'react'
 import TopBar from '../../components/layout/header'
 import Top from '../../components/layout/header/Top'
 import Footer from '../../components/layout/footer'
-import { ShopSection, ShopTop } from '../../components/pages/shop'
+import { ShopTop } from '../../components/pages/shop'
 
 function Shop() {
     return (
@@ -13,7 +13,6 @@ function Shop() {
 
             {/* content section >>>>>>>> */}
             <ShopTop/>
-            {/* <ShopSection/> */}
             <br/>
 
             {/* footer section >> */}

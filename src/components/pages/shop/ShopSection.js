@@ -1,93 +1,93 @@
 
-import { Card, Divider, Empty } from 'antd'
+import { Card, Divider } from 'antd'
 import React from 'react'
 
 
 
 function ShopSection() {
 
-    const cards = [
-        {
-            job: 'Install ceiling fan',
-            cost: '	$100',
-            desc: '	You supply ceiling fan to suit your home.'
-        },
-        {
-            job: 'Supply ceiling fan',
-            cost: '	$75',
-            desc: 'You supply house to bolt it to.'
-        },
-        {
-            job: 'Install new double power',
-            cost: '	$90',
-            desc: 'Includes labour, cable, gpo, everything.'
-        },
-        {
-            job: 'Install double power outside',
-            cost: '	$150',
-            desc: '	Includes everything + weatherproof gpo.'
-        },
-        {
-            job: 'Install new light in new location',
-            cost: '	$90',
-            desc: '	Includes everything except new light'
-        },
-        {
-            job: 'Install 92mm LED downlight',
-            cost: '	$90',
-            desc: 'As above but includes LED downlight.'
-        },
-        {
-            job: 'Replace light',
-            cost: '	$45',
-            desc: '	Replace light where there is a cable'
-        },
-        {
-            job: 'Supply and install ceiling exhaust fan',
-            cost: '	$150',
-            desc: 'Supply and install ceiling exhaust fan.'
-        },
-        {
-            job: 'Supply and install Sensor light',
-            cost: '	$160',
-            desc: 'Includes Twin 150w Sensor light.'
-        },
-        {
-            job: 'Fault Finding hourly Call out',
-            cost: '	$40',
-            desc: 'fee applies in this case.'
-        },
-        {
-            job: 'Hot water element',
-            cost: '	$200',
-            desc: '	Replace most electric hot water elements.'
-        },
-        {
-            job: 'Accurate responses to client’s requirements',
-            cost: '	$220',
-            desc: '	Element or thermostat is all it could be.'
-        },
-        {
-            job: 'Install CCTV systems package',
-            cost: '	$500 +',
-            desc: 'Those 4 camera eBay CCTV systems.'
-        },
-        {
-            job: 'Install IXL 3 in 1 type bathroom light',
-            cost: '	$150 ',
-            desc: 'Must have roof cavity. Cannot go downstairs.'
-        },
-        {
-            job: 'Install oven / stove new circuit',
-            cost: '	$350 +',
-            desc: 'Stoves require heavy duty cable.'
-        },
-        {
-            job: 'Replace oven / stove',
-            cost: '	$100',
-            desc: 'You have new one there.'
-        },
-    ]
+    // const cards = [
+    //     {
+    //         job: 'Install ceiling fan',
+    //         cost: '	$100',
+    //         desc: '	You supply ceiling fan to suit your home.'
+    //     },
+    //     {
+    //         job: 'Supply ceiling fan',
+    //         cost: '	$75',
+    //         desc: 'You supply house to bolt it to.'
+    //     },
+    //     {
+    //         job: 'Install new double power',
+    //         cost: '	$90',
+    //         desc: 'Includes labour, cable, gpo, everything.'
+    //     },
+    //     {
+    //         job: 'Install double power outside',
+    //         cost: '	$150',
+    //         desc: '	Includes everything + weatherproof gpo.'
+    //     },
+    //     {
+    //         job: 'Install new light in new location',
+    //         cost: '	$90',
+    //         desc: '	Includes everything except new light'
+    //     },
+    //     {
+    //         job: 'Install 92mm LED downlight',
+    //         cost: '	$90',
+    //         desc: 'As above but includes LED downlight.'
+    //     },
+    //     {
+    //         job: 'Replace light',
+    //         cost: '	$45',
+    //         desc: '	Replace light where there is a cable'
+    //     },
+    //     {
+    //         job: 'Supply and install ceiling exhaust fan',
+    //         cost: '	$150',
+    //         desc: 'Supply and install ceiling exhaust fan.'
+    //     },
+    //     {
+    //         job: 'Supply and install Sensor light',
+    //         cost: '	$160',
+    //         desc: 'Includes Twin 150w Sensor light.'
+    //     },
+    //     {
+    //         job: 'Fault Finding hourly Call out',
+    //         cost: '	$40',
+    //         desc: 'fee applies in this case.'
+    //     },
+    //     {
+    //         job: 'Hot water element',
+    //         cost: '	$200',
+    //         desc: '	Replace most electric hot water elements.'
+    //     },
+    //     {
+    //         job: 'Accurate responses to client’s requirements',
+    //         cost: '	$220',
+    //         desc: '	Element or thermostat is all it could be.'
+    //     },
+    //     {
+    //         job: 'Install CCTV systems package',
+    //         cost: '	$500 +',
+    //         desc: 'Those 4 camera eBay CCTV systems.'
+    //     },
+    //     {
+    //         job: 'Install IXL 3 in 1 type bathroom light',
+    //         cost: '	$150 ',
+    //         desc: 'Must have roof cavity. Cannot go downstairs.'
+    //     },
+    //     {
+    //         job: 'Install oven / stove new circuit',
+    //         cost: '	$350 +',
+    //         desc: 'Stoves require heavy duty cable.'
+    //     },
+    //     {
+    //         job: 'Replace oven / stove',
+    //         cost: '	$100',
+    //         desc: 'You have new one there.'
+    //     },
+    // ]
 
     return (
         <div className="w-100">

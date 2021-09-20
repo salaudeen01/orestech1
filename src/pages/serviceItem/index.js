@@ -2,7 +2,7 @@ import React from 'react'
 import TopBar from '../../components/layout/header'
 import Top from '../../components/layout/header/Top'
 import Footer from '../../components/layout/footer'
-import { ServiceItemSection, ServiceItemTop } from '../../components/pages/serviceItem'
+import { ServiceItemTop } from '../../components/pages/serviceItem'
 
 function ServiceItem() {
     return (
@@ -13,7 +13,6 @@ function ServiceItem() {
 
             {/* content section >>>>>>>> */}
             <ServiceItemTop/>
-            {/* <ServiceItemSection/> */}
             <br/>
 
             {/* footer section >> */}

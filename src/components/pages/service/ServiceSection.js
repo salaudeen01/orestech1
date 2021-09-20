@@ -5,7 +5,6 @@ import React,{useState} from 'react'
 import { Link } from 'react-router-dom'
 
 import top from '../../images/pages/service/servicebottom.jpg'
-import abtimg from '../../images/pages/service/servicetop.jpg'
 import obj1 from '../../images/pages/service/obj1.jpg'
 import obj2 from '../../images/pages/service/obj2.jpg'
 import obj3 from '../../images/pages/service/obj3.jpg'
