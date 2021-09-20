@@ -41,7 +41,7 @@ function TopBar({active}) {
         <div className="ff-pop">
             <nav id="navbar" className="navbar navbar-expand-lg navbar-light bg-light px-md-5" style={{minHeight:'80px'}}>
                 <div className="container-fluid">
-                    <Link to="/" className="d-none d-md-block navbar-brand fw-bold" href="#"><img src="resources/images/logo.png" alt="logo" width="30px" height="50px" /><span>Electrician</span></Link>
+                    <Link to="/" className="d-none d-md-block navbar-brand fw-bold" href="#"><img src="resources/images/logo.png" alt="logo" width="30px" height="50px" /><span>Merritech</span></Link>
                     <Link to="/" className="d-block d-md-none navbar-brand-mob fw-bold" href="#"><img src="resources/images/logo.png" alt="logo" width="25px" height="40px" /><span>Electrician</span></Link>
                     
                     <Link className="d-block d-md-none cart-icon fs-3 up-smo"><ShoppingCartOutlined/></Link>

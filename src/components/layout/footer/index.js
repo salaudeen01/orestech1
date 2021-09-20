@@ -31,7 +31,7 @@ function Footer() {
                     <div className="row">
                         <div className="col-md-3">
                             <div>
-                                <Link to="/" className="footer-brand fw-bold" href="#"><img src="resources/images/logo-dark.png" alt="logo" width="25px" height="50px" /><span>Electrician</span></Link>
+                                <Link to="/" className="footer-brand fw-bold" href="#"><img src="resources/images/logo-dark.png" alt="logo" width="25px" height="50px" /><span>Merritech</span></Link>
                             </div>
                         </div>
 
@@ -129,7 +129,7 @@ function Footer() {
                 <div className="et-f-mob mt-big py-1">
                     <div className="container-fluid">
                         <div className="text-center my-3">
-                            <Link to="/" className="footer-brand-mob fw-bold" href="#"><img src="resources/images/logo-dark.png" alt="logo" width="25px" height="30px" /><span>Electrician</span></Link>
+                            <Link to="/" className="footer-brand-mob fw-bold" href="#"><img src="resources/images/logo-dark.png" alt="logo" width="25px" height="30px" /><span>Merritech</span></Link>
                         </div>
                         <div className="text-center my-3">
                             <p className="fs-7 text-lit">Our experienced electricians are highly trained in all aspects of electrical service, from office lighting and security systems to emergency repair.</p>
