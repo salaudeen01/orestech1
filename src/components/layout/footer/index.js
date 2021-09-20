@@ -51,11 +51,11 @@ function Footer() {
                                     <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/" className="et-f-links">Home</Link></p>
                                     <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/about" className="et-f-links">About Us</Link></p>
                                     <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/service" className="et-f-links">Services</Link></p>
-                                    <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/price" className="et-f-links">Prices</Link></p>
+                                    {/* <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/price" className="et-f-links">Prices</Link></p> */}
                                 </div>
                                 <div className="col-6">
                                     <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/gallery" className="et-f-links">Gallery</Link></p>
-                                    <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/shop" className="et-f-links">Shop</Link></p>
+                                    {/* <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/shop" className="et-f-links">Shop</Link></p> */}
                                     <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/faq" className="et-f-links">FAQ</Link></p>
                                     <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/contact" className="et-f-links">Contacts</Link></p>
                                 </div>
@@ -142,11 +142,11 @@ function Footer() {
                                         <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/" className="et-f-links">Home</Link></p>
                                         <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/about" className="et-f-links">About Us</Link></p>
                                         <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/service" className="et-f-links">Services</Link></p>
-                                        <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/price" className="et-f-links">Prices</Link></p>
+                                        {/* <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/price" className="et-f-links">Prices</Link></p> */}
                                     </div>
                                     <div className="col-6">
                                         <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/gallery" className="et-f-links">Gallery</Link></p>
-                                        <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/shop" className="et-f-links">Shop</Link></p>
+                                        {/* <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/shop" className="et-f-links">Shop</Link></p> */}
                                         <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/faq" className="et-f-links">FAQ</Link></p>
                                         <p className="fs-6 lh-1"><span className="text-orng fas fa-check me-2"/> <Link to="/contact" className="et-f-links">Contacts</Link></p>
                                     </div>
