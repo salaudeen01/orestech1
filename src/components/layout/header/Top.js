@@ -8,7 +8,7 @@ function Top() {
                 <div className="float-start">
                    <span className="mx-5">
                        <span className="icon fas fa-map-marker-alt px-2"/> 
-                       <span>226A Muri Okunola Victoria Island, Lagos, Nigeria</span>
+                       <span>Rc-Terries Banana Island Road, Ikoyi, Lagos, Nigeria</span>
                    </span>
                    <span>
                        <span className="icon far fa-clock px-2"/> 

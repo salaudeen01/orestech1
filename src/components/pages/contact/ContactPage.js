@@ -36,7 +36,7 @@ function ContactPage() {
                                 <div className="px-2">
                                     <p className="fs-6 ff-pop fw-bold">Address:</p>
                                     <p className="fs-6 text-ls bold-sm">Electrician Company
-                                    226A Muri Okunola Victoria Island, Lagos, Nigeria</p>
+                                    Rc-Terries Banana Island Road, Ikoyi, Lagos, Nigeria</p>
                                 </div>
                             </div>
                         </div>

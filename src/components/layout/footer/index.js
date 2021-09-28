@@ -65,7 +65,7 @@ function Footer() {
                         <div className="col-md-4 pe-8">
                             <p className="fs-7 text-lit lh-sm d-flex">
                                 <p className="m-0 icon fas fa-map-marker-alt pe-4"/> 
-                                <p className="m-0">226A Muri Okunola Victoria Island, Lagos, Nigeria</p>
+                                <p className="m-0">Rc-Terries Banana Island Road, Ikoyi, Lagos, Nigeria</p>
                             </p>
 
                             <p className="fs-7 text-lit lh-sm">
@@ -156,7 +156,7 @@ function Footer() {
                             <div className="col-md-4">
                                 <p className="fs-7 text-lit lh-sm d-flex">
                                     <p className="m-0 icon fas fa-map-marker-alt pe-4"/> 
-                                    <p className="m-0">226A Muri Okunola Victoria Island, Lagos, Nigeria</p>
+                                    <p className="m-0">Rc-Terries Banana Island Road, Ikoyi, Lagos, Nigeria</p>
                                 </p>
 
                                 <p className="fs-7 text-lit lh-sm">
