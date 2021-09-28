@@ -93,14 +93,14 @@ function GalleryPage() {
                             <p className="fs-6 text-li bold-sm d-block d-md-none px-3">You will really enjoy doing business with us! Fast, electrical estimates at a competitive price. We save you time and money. Interested? Check out our photos.</p>
                             <div className="w-100 my-5">
 
-                                <div className="d-md-inline fw-bold text-center">
+                                {/* <div className="d-md-inline fw-bold text-center">
                                         <Link className="d-md-inline mx-3 hover-orng text-orng">All</Link>
                                         <Link className="d-md-inline mx-3 hover-orng text-dk">Other</Link>
                                         <Link className="d-md-inline mx-3 hover-orng text-dk">Heating</Link>
                                         <Link className="d-md-inline mx-3 hover-orng text-dk">Air Conditioning</Link>
                                         <Link className="d-md-inline mx-3 hover-orng text-dk">Security Systems</Link>
                                         <Link className="d-md-inline mx-3 hover-orng text-dk">Electrical</Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="row my-2">

@@ -1,6 +1,6 @@
 import React from 'react'
 // import { MobileViewNav, WebViewNav } from '../../components/layout/header'
-import { HomeAbout, HomeBlogs, HomeGallery, HomeServices, HomeShop, HomeTop } from '../../components/pages/home'
+import { HomeAbout, HomeBlogs, HomeGallery, HomeServices, HomeTop } from '../../components/pages/home'
 import Footer from '../../components/layout/footer'
 import Top from '../../components/layout/header/Top'
 import TopBar from '../../components/layout/header'
@@ -17,12 +17,12 @@ function Home() {
             <HomeTop/>
             <br/>
             <HomeAbout/>
-            <br/>
+            {/* <br/> */}
             <HomeServices/>
-            <br/>
+            {/* <br/> */}
             <HomeGallery/>
-            <br/>
-            <HomeShop/>
+            {/* <br/>
+            <HomeShop/> */}
             <br/>
             <HomeBlogs/>
             <br/>

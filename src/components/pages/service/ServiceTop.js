@@ -52,7 +52,7 @@ function ServiceTop() {
                             </div>
                             <div className="">
                                 <p className="fs-6 fw-bold text-dk">Call us today</p>
-                                <p className="text-orng fw-bold"><span className="fas fa-phone-alt" /> <a className="fs-4 text-orng" href="tel: 1-(800)-765-43-21">1-(800)-765-43-21</a></p>
+                                <p className="text-orng fw-bold"><span className="fas fa-phone-alt" /> <a className="fs-4 text-orng" href="tel: +234 (081) 270-162-92">+234 (081) 270-162-92</a></p>
                                 <p className="text-ld">We’re available 24/7, 365 days a year.</p>
                             </div>
                         </div>
@@ -79,7 +79,7 @@ function ServiceTop() {
                             </div>
                             <div className="">
                                 <p className="fs-6 fw-bold text-dk">Call us today</p>
-                                <p className="text-orng fw-bold"><span className="fas fa-phone-alt" /> <a className="fs-4 text-orng" href="tel: 1-(800)-765-43-21">1-(800)-765-43-21</a></p>
+                                <p className="text-orng fw-bold"><span className="fas fa-phone-alt" /> <a className="fs-4 text-orng" href="tel: +234 (081) 270-162-92">+234 (081) 270-162-92</a></p>
                                 <p className="text-ld">We’re available 24/7, 365 days a year.</p>
                             </div>
                         </div>

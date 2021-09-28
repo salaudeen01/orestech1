@@ -36,8 +36,7 @@ function ContactPage() {
                                 <div className="px-2">
                                     <p className="fs-6 ff-pop fw-bold">Address:</p>
                                     <p className="fs-6 text-ls bold-sm">Electrician Company
-                                    8494 Signal Hill Road Manassas,
-                                    VA, 20110</p>
+                                    226A Muri Okunola Victoria Island, Lagos, Nigeria</p>
                                 </div>
                             </div>
                         </div>
@@ -64,7 +63,7 @@ function ContactPage() {
                                 <div className="px-2">
                                     <p className="fs-6 ff-pop fw-bold">Phone Numbers:</p>
                                     <p className="fs-6 text-ls bold-sm">
-                                        <a className="text-ls hover-orng" href="tel:1 (800) 765-43-21">1 (800) 765-43-21</a> (Appointments)
+                                        <a className="text-ls hover-orng" href="tel:+234 (081) 270-162-92">+234 (081) 270-162-92</a> (Appointments)
                                         <br/>
                                         <a className="text-ls hover-orng" href="tel:1 (800) 765-43-22 ">1 (800) 765-43-22 </a> (Office)</p>
                                 </div>

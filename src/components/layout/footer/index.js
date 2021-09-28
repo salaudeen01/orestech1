@@ -31,7 +31,7 @@ function Footer() {
                     <div className="row">
                         <div className="col-md-3">
                             <div>
-                                <Link to="/" className="footer-brand fw-bold" href="#"><img src="resources/images/logo-dark.png" alt="logo" width="25px" height="50px" /><span>Merritech</span></Link>
+                                <Link to="/" className="footer-brand fw-bold" href="#"><img src="resources/images/logo-dark.png" alt="logo" width="25px" height="50px" /><span>OresTech</span></Link>
                             </div>
                         </div>
 
@@ -65,7 +65,7 @@ function Footer() {
                         <div className="col-md-4 pe-8">
                             <p className="fs-7 text-lit lh-sm d-flex">
                                 <p className="m-0 icon fas fa-map-marker-alt pe-4"/> 
-                                <p className="m-0">8494 Signal Hill Road Manassas, VA, 20110</p>
+                                <p className="m-0">226A Muri Okunola Victoria Island, Lagos, Nigeria</p>
                             </p>
 
                             <p className="fs-7 text-lit lh-sm">
@@ -74,9 +74,9 @@ function Footer() {
                             </p>
 
                             <p className="fs-7 text-lit lh-sm">
-                                <a href="tel:1 (800) 765-43-21" className="text-decoration-none et-f-ph">
+                                <a href="tel:+234 (081) 270-162-92" className="text-decoration-none et-f-ph">
                                     <span className="icon fas fa-phone-alt pe-4"/> 
-                                    <span className="fw-bold">1 (800) 765-43-21</span>
+                                    <span className="fw-bold">+234 (081) 270-162-92</span>
                                 </a>
                             </p>
                         </div>
@@ -129,7 +129,7 @@ function Footer() {
                 <div className="et-f-mob mt-big py-1">
                     <div className="container-fluid">
                         <div className="text-center my-3">
-                            <Link to="/" className="footer-brand-mob fw-bold" href="#"><img src="resources/images/logo-dark.png" alt="logo" width="25px" height="30px" /><span>Merritech</span></Link>
+                            <Link to="/" className="footer-brand-mob fw-bold" href="#"><img src="resources/images/logo-dark.png" alt="logo" width="25px" height="30px" /><span>OresTech</span></Link>
                         </div>
                         <div className="text-center my-3">
                             <p className="fs-7 text-lit">Our experienced electricians are highly trained in all aspects of electrical service, from office lighting and security systems to emergency repair.</p>
@@ -156,7 +156,7 @@ function Footer() {
                             <div className="col-md-4">
                                 <p className="fs-7 text-lit lh-sm d-flex">
                                     <p className="m-0 icon fas fa-map-marker-alt pe-4"/> 
-                                    <p className="m-0">8494 Signal Hill Road Manassas, VA, 20110</p>
+                                    <p className="m-0">226A Muri Okunola Victoria Island, Lagos, Nigeria</p>
                                 </p>
 
                                 <p className="fs-7 text-lit lh-sm">
@@ -165,9 +165,9 @@ function Footer() {
                                 </p>
 
                                 <p className="fs-7 text-lit lh-sm">
-                                    <a href="tel:1 (800) 765-43-21" className="text-decoration-none et-f-ph">
+                                    <a href="tel:+234 (081) 270-162-92" className="text-decoration-none et-f-ph">
                                         <span className="icon fas fa-phone-alt pe-4"/> 
-                                        <span className="fw-bold">1 (800) 765-43-21</span>
+                                        <span className="fw-bold">+234 (081) 270-162-92</span>
                                     </a>
                                 </p>
                             </div>

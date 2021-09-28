@@ -27,7 +27,7 @@ import bgm from '../../images/bg_marker.png'
                             <div className="text-center">
                                 <p className="text-orng fs-6 fw-bold m-0">@electricians</p>
                                 <p className="fs-1 fw-bold text-dark">Our Projects</p>
-                                <div className="w-100 my-5">
+                                {/* <div className="w-100 my-5">
 
                                     <div className="d-inline fw-bold text-center">
                                             <Link className="d-inline mx-3 hover-orng text-orng">All</Link>
@@ -36,7 +36,7 @@ import bgm from '../../images/bg_marker.png'
                                             <Link className="d-inline mx-3 hover-orng text-dk">Offices</Link>
                                             <Link className="d-inline mx-3 hover-orng text-dk">Retail_objects</Link>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="row my-2">
                                 <div className="col-md-1"></div>
@@ -184,7 +184,7 @@ import bgm from '../../images/bg_marker.png'
                                         <div className="et-h-g-s-bbg-card py-4 px-md-4 text-white">
                                             <p className="fs-3 fw-bold lh-1">Emergency Service</p>
                                             <p className="fs-6 fw-bold lh-base">If this is an emergency outside of normal business hours, call us</p>
-                                            <a href="tel:1 (800) 765-43-21" className="lh-1 fw-bold fs-4 text-white"><span className="fas fa-phone" /> 1 (800) 765-43-21</a>
+                                            <a href="tel:+234 (081) 270-162-92" className="lh-1 fw-bold fs-4 text-white"><span className="fas fa-phone" /> +234 (081) 270-162-92</a>
                                         </div>
                                     </div>
                                 </div>
@@ -356,7 +356,7 @@ import bgm from '../../images/bg_marker.png'
                                     <div className="et-h-g-s-bbg-card-mob py-4 px-4 text-white">
                                         <p className="fs-3 fw-bold lh-1">Emergency Service</p>
                                         <p className="fs-6 fw-bold lh-base">If this is an emergency outside of normal business hours, call us</p>
-                                        <a href="tel:1 (800) 765-43-21" className="lh-1 fw-bold fs-3 text-white"><span className="fas fa-phone" /> 1 (800) 765-43-21</a>
+                                        <a href="tel:+234 (081) 270-162-92" className="lh-1 fw-bold fs-3 text-white"><span className="fas fa-phone" /> +234 (081) 270-162-92</a>
                                     </div>
                                 </div>
                             </div>

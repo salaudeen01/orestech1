@@ -19,7 +19,7 @@ function HomeServices() {
 
             {/* web view  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/}
             <div className="d-none d-md-block">
-                <div className="container-fluid w-100">
+                {/* <div className="container-fluid w-100">
                     <div className="row">
                         <div className="col-md-4 et-h-s-f hover-zoom">
                             <div className="et-h-s-text">
@@ -49,7 +49,7 @@ function HomeServices() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="et-h-s-slides container">
                     <div className="text-center">

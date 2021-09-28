@@ -6,14 +6,14 @@ import { Link } from 'react-router-dom'
 
 import top from '../../images/pages/service/servicebottom.jpg'
 import obj1 from '../../images/pages/service/obj1.jpg'
-import obj2 from '../../images/pages/service/obj2.jpg'
+// import obj2 from '../../images/pages/service/obj2.jpg'
 import obj3 from '../../images/pages/service/obj3.jpg'
 import obj4 from '../../images/pages/service/obj4.jpg'
 import obj5 from '../../images/pages/service/obj5.jpg'
 import obj6 from '../../images/pages/service/obj6.jpg'
 import obj7 from '../../images/pages/service/obj7.jpg'
-import obj8 from '../../images/pages/service/obj8.jpg'
-import obj9 from '../../images/pages/service/obj9.jpg'
+// import obj8 from '../../images/pages/service/obj8.jpg'
+// import obj9 from '../../images/pages/service/obj9.jpg'
 
 
 function ServiceSection() {
@@ -30,11 +30,11 @@ function ServiceSection() {
             title: 'Electrical Repairs',
             note: 'Electrical repairs should always be handled by a professional electrician.'
         },
-        {
-            img: obj2,
-            title: 'Panel Upgrades',
-            note: 'Electrical panel maintenance, therefore, should be part of your regular routine.'
-        },
+        // {
+        //     img: obj2,
+        //     title: 'Panel Upgrades',
+        //     note: 'Electrical panel maintenance, therefore, should be part of your regular routine.'
+        // },
         {
             img: obj3,
             title: 'Lighting Upgrades',
@@ -60,16 +60,16 @@ function ServiceSection() {
             title: 'Outdoor and Motion Lighting',
             note:'Outdoor Lighting can transform your outdoor living space completely.'
         },
-        {
-            img: obj8,
-            title: 'Digital Thermostat Installation',
-            note:'Give us a call to plan your Digital Thermostat Installation today.'
-        },
-        {
-            img: obj9,
-            title:'Baseboard Heating Installation',
-            note:'Baseboard heaters are one of the easiest systems to operate.'
-        }
+        // {
+        //     img: obj8,
+        //     title: 'Digital Thermostat Installation',
+        //     note:'Give us a call to plan your Digital Thermostat Installation today.'
+        // },
+        // {
+        //     img: obj9,
+        //     title:'Baseboard Heating Installation',
+        //     note:'Baseboard heaters are one of the easiest systems to operate.'
+        // }
     ]
 
     return (
@@ -82,12 +82,12 @@ function ServiceSection() {
                                 <p className="fs-1 fw-bold text-dark">What We Offer</p>
                                 <div className="w-100 my-5">
 
-                                    <div className="d-inline fw-bold text-center">
+                                    {/* <div className="d-inline fw-bold text-center">
                                             <Link className="d-inline mx-3 hover-orng text-orng">All</Link>
                                             <Link className="d-inline mx-3 hover-orng text-dk">Commercial services</Link>
                                             <Link className="d-inline mx-3 hover-orng text-dk">Industrial Services</Link>
                                             <Link className="d-inline mx-3 hover-orng text-dk">Residential Services</Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
 
