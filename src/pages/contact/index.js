@@ -13,10 +13,8 @@ function Contact() {
 
             {/* content section >>>>>>>> */}
             <ContactPage/>
-            <br/>
-
-            {/* footer section >> */}
-            <Footer/>
+            <br/><br/><br/>
+            <Footer />
         </div>
     )
 }

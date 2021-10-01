@@ -6,9 +6,13 @@ function Top() {
         <div className="elect-top w-100 d-none d-md-block ff-pop">
             <div className="container-fluid py-3">
                 <div className="float-start">
-                   <span className="mx-5">
+                   {/* <span className="mx-5">
                        <span className="icon fas fa-map-marker-alt px-2"/> 
                        <span>Rc-Terries Banana Island Road, Ikoyi, Lagos, Nigeria</span>
+                   </span> */}
+                   <span className="mx-5">
+                       <span className="icon fas fa-envelope px-2"/> 
+                       <span>oresttech@gmail.com</span>
                    </span>
                    <span>
                        <span className="icon far fa-clock px-2"/> 

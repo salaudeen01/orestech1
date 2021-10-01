@@ -4,9 +4,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './style.css'
 
-function Footer() {
+function Footer(style) {
     return (
-        <div className="et-footer ff-pop">
+        <div className="et-footer ff-pop" style={style}>
             <br/>
 
             {/* web view >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
@@ -66,6 +66,12 @@ function Footer() {
                             <p className="fs-7 text-lit lh-sm d-flex">
                                 <p className="m-0 icon fas fa-map-marker-alt pe-4"/> 
                                 <p className="m-0">Rc-Terries Banana Island Road, Ikoyi, Lagos, Nigeria</p>
+                            </p>
+
+                            <p className="fs-7 text-lit lh-sm">
+                                <span className="icon far fa-envelope pe-4"/> 
+                                {/* <i class="fas fa-envelope"></i> */}
+                                <span>oresttech@gmail.com</span>
                             </p>
 
                             <p className="fs-7 text-lit lh-sm">

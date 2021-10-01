@@ -27,8 +27,8 @@ function ContactPage() {
                 
 
                 <div className="bg-white container et-c-up">
-                    <div className="row p-md-5 p-3">
-                        <div className="col-md-4 p-md-5">
+                    <div className="row p-md-5 p-2">
+                        <div className="col-md-3 p-md-2">
                             <div className="d-flex">
                                 <div className="px-2">
                                     <span className="fas fa-map-marker-alt fs-2 text-orng" />
@@ -39,9 +39,37 @@ function ContactPage() {
                                     Rc-Terries Banana Island Road, Ikoyi, Lagos, Nigeria</p>
                                 </div>
                             </div>
+                        </div>                       
+
+                        <div className="col-md-3 p-md-2">
+                            <div className="d-flex">
+                                <div className="px-2">
+                                    <span className="fas fa-envelope fs-2 text-orng" />
+                                </div>
+                                <div className="px-2">
+                                    <p className="fs-6 ff-pop fw-bold">E-mail:</p>
+                                    <p className="fs-6 text-ls bold-sm">
+                                        <a className="text-ls hover-orng" href="oresttech@gmail.com">oresttech@gmail.com </a></p>
+                                </div>
+                            </div>
                         </div>
 
-                        <div className="col-md-4 p-md-5">
+                        <div className="col-md-3 p-md-2">
+                            <div className="d-flex">
+                                <div className="px-2">
+                                    <span className="fas fa-phone-alt fs-2 text-orng" />
+                                </div>
+                                <div className="px-2">
+                                    <p className="fs-6 ff-pop fw-bold">Phone Numbers:</p>
+                                    <p className="fs-6 text-ls bold-sm">
+                                        <a className="text-ls hover-orng" href="tel:+234 (081) 270-162-92">+234 (081) 270-162-92</a> (Appointments)
+                                        <br/>
+                                        <a className="text-ls hover-orng" href="tel:1 (800) 765-43-22 ">+234 (080) 335-181-47 </a> (Office)</p>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div className="col-md-3 p-md-2">
                             <div className="d-flex">
                                 <div className="px-2">
                                     <span className="far fa-clock fs-2 text-orng" />
@@ -54,28 +82,11 @@ function ContactPage() {
                                 </div>
                             </div>
                         </div>
-
-                        <div className="col-md-4 p-md-5">
-                            <div className="d-flex">
-                                <div className="px-2">
-                                    <span className="fas fa-phone-alt fs-2 text-orng" />
-                                </div>
-                                <div className="px-2">
-                                    <p className="fs-6 ff-pop fw-bold">Phone Numbers:</p>
-                                    <p className="fs-6 text-ls bold-sm">
-                                        <a className="text-ls hover-orng" href="tel:+234 (081) 270-162-92">+234 (081) 270-162-92</a> (Appointments)
-                                        <br/>
-                                        <a className="text-ls hover-orng" href="tel:1 (800) 765-43-22 ">1 (800) 765-43-22 </a> (Office)</p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
 
-
-
-                <div className="my-8">
+                <div className="my">
                         <div className="text-center">
                             <p className="text-orng fw-bold fs-5">Contact Form</p>
                             <p className="fs-1 text-dk lh-sm fw-bold">Get In Touch with Us</p>
@@ -101,18 +112,12 @@ function ContactPage() {
                                 <p className="fs-6 text-center">
                                     All Electrical work must be done by a qualified licensed electrician.
                                 </p>
-                                <div className="my-3 text-center mx-auto">
+                                <div className="my-2 text-center mx-auto">
                                     <Link className="review-btn" type="submit"><ThunderboltFilled />  <span>Contact Us</span></Link>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-
-
-
-
-               
+                    </div>            
 
 
             </div>
