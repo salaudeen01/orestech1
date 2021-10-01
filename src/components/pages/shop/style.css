@@ -1,5 +1,5 @@
 .text-orng{
-    color: rgb(255, 131, 49);
+    color: #015bff;
   }
   .text-ld{
     color: rgba(75, 74, 74, 0.89);
@@ -15,11 +15,11 @@
   }
   .hover-orng:hover{
     transition: 0.3s ease-in-out;
-    color: rgb(255, 131, 49);
+    color: #015bff;
     cursor: pointer;
   }
   .border-start.border-4.border-danger{
-    border-color: rgb(255, 131, 49);
+    border-color: #015bff;
   }
   .text-big{
     font-size: 60px;
@@ -38,7 +38,7 @@
     font-family: 'Poppins', sans-serif;
   }
   .border-danger{
-    border-color:  rgb(255, 131, 49);
+    border-color:  #015bff;
   }
   .bold-sm{
     font-weight:600;
@@ -242,11 +242,11 @@
     font-size: 50px;
   }
   .et-a-s-bulb:hover{
-    color: rgb(255, 131, 49);
+    color: #015bff;
   }
   .et-a-s-bulb img:hover{
     background-size: 220%;
     background-repeat: no-repeat;
     transition: 5s ease-in-out;
-    color: rgb(255, 131, 49);
+    color: #015bff;
   }

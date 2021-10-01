@@ -26,7 +26,7 @@
     color: rgb(195, 193, 193);
 }
 .et-f-ph:hover{
-    color: rgb(255, 131, 49);
+    color: #015bff;
 }
 .-up{
     margin-top: -40px;
@@ -50,7 +50,7 @@
 }
 .et-f-newslet{
     height: 15vh;
-    background-color: rgb(246, 114, 26);
+    background-color: rgb(179,25,255);
     margin: -75px auto;
 }
 .et-f-newslet-btn{
@@ -66,9 +66,9 @@
 }
 .et-f-newslet-btn:hover{
   transition: 0.5s ease-in-out;
-  color: rgb(255, 131, 49);
+  color: #015bff;
   background-color: white;
-  border: 1px solid rgb(255, 131, 49);
+  border: 1px solid #015bff;
   border: none;
 }
 
@@ -93,7 +93,7 @@
     font-weight: 500;
 }
 .et-f-links:hover{
-    color: rgb(255, 131, 49);
+    color: #015bff;
 }
 
 .f-icons{
@@ -101,7 +101,7 @@
     color: rgb(105, 102, 102);
 }
 .f-icons:hover{
-    background-color: rgb(255, 131, 49);
+    background-color: #015bff;
     color: rgb(105, 102, 102);
 }
 
@@ -111,7 +111,7 @@
 .news-let-mob{
     width: 100%;
     height: 15vh;
-    background-color: rgb(246, 114, 26);
+    background-color: rgb(179,25,255);
     margin: -100px auto;
 }
 .news-let-mob-btn{
@@ -124,16 +124,16 @@
 }
 .news-let-mob-btn:hover{
   transition: 0.5s ease-in-out;
-  color: rgb(255, 131, 49);
+  color: #015bff;
   background-color: white;
-  border: 1px solid rgb(255, 131, 49);
+  border: 1px solid #015bff;
   border: none;
 }
 
 
 
-.et-f-mob{
-}
+/* .et-f-mob{
+} */
 .footer-brand-mob img{
     position:absolute;
     margin-top: 5px;
@@ -149,7 +149,7 @@
     font-weight: 500;
 }
 .et-f-links:hover{
-    color: rgb(255, 131, 49);
+    color: #015bff;
 }
 
 .f-icons{
@@ -157,6 +157,6 @@
     color: rgb(105, 102, 102);
 }
 .f-icons:hover{
-    background-color: rgb(255, 131, 49);
+    background-color: #015bff;
     color: rgb(105, 102, 102);
 }

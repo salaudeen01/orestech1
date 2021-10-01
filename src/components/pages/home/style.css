@@ -1,5 +1,5 @@
 .text-orng{
-  color: rgb(255, 131, 49);
+  color: #015bff;
 }
 .text-ld{
   color: rgba(75, 74, 74, 0.89);
@@ -15,11 +15,11 @@
 }
 .hover-orng:hover{
   transition: 0.3s ease-in-out;
-  color: rgb(255, 131, 49);
+  color: #015bff;
   cursor: pointer;
 }
 .border-start.border-4.border-danger{
-  border-color: rgb(255, 131, 49);
+  border-color: #015bff;
 }
 .text-big{
   font-size: 60px;
@@ -35,7 +35,7 @@
   font-family: 'Poppins', sans-serif;
 }
 .border-danger{
-  border-color:  rgb(255, 131, 49);
+  border-color:  #015bff;
 }
 .bold-sm{
   font-weight:600;
@@ -151,7 +151,7 @@
   .et-home-top-orng{
     height: 45px;
     border-radius: 5px 5px 0px 0px;
-    background-color: rgb(255, 131, 49);
+    background-color: #015bff;
   }
 
   .et-home-top-ryl{
@@ -170,7 +170,7 @@
     min-width: 150px;
     min-height: 50px;
     color: white;
-    background-color: rgb(255, 131, 49);
+    background-color: #015bff;
     border: none;
     border-radius: 5px;
     padding: 0px 20px;
@@ -180,15 +180,15 @@
     min-height: 45px;
     margin: 0px auto;
     color: white;
-    background-color: rgb(255, 131, 49);
+    background-color: #015bff;
     border: none;
     border-radius: 5px;
   }
   .et-home-top-button:hover, .et-home-top-btn:hover{
     transition: 0.5s ease-in-out;
-    color: rgb(255, 131, 49);
+    color: #015bff;
     background-color: white;
-    border: 1px solid rgb(255, 131, 49);
+    border: 1px solid #015bff;
   }
 
 /* electrician-template home top section ends here >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -279,11 +279,11 @@
     top: 20px;
     padding: 20px;
     font-size: large;
-    background-color: rgb(255, 131, 49);
+    background-color: #015bff;
   }
   .et-h-s-text-btn:hover{
     transition: 0.5s ease-in-out;
-    color: rgb(255, 131, 49);
+    color: #015bff;
     background: white;
   }
 
@@ -334,13 +334,13 @@
     font-size: 50px;
   }
   .et-h-s-bulb:hover{
-    color: rgb(255, 131, 49);
+    color: #015bff;
   }
   .et-h-s-bulb img:hover{
     background-size: 220%;
     background-repeat: no-repeat;
     transition: 5s ease-in-out;
-    color: rgb(255, 131, 49);
+    color: #015bff;
   }
 
 
@@ -372,7 +372,7 @@
     min-width: 180px;
     min-height: 50px;
     color: white;
-    background-color: rgb(255, 131, 49);
+    background-color: #015bff;
     border: none;
     border-radius: 5px;
     margin-top: 5px;
@@ -382,9 +382,9 @@
   }
   .et-h-s-p-btn-orng:hover{
     transition: 0.5s ease-in-out;
-    color: rgb(255, 131, 49);
+    color: #015bff;
     background-color: white;
-    border: 1px solid rgb(255, 131, 49);
+    border: 1px solid #015bff;
   }
 
   .et-h-s-p-btn-dk{
@@ -401,9 +401,9 @@
   }
   .et-h-s-p-btn-dk:hover{
     transition: 0.5s ease-in-out;
-    color: rgb(255, 131, 49);
+    color: #015bff;
     background-color: white;
-    border: 1px solid rgb(255, 131, 49);
+    border: 1px solid #015bff;
   }
 
 /* electrician-template home services section ends here >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -439,7 +439,7 @@
   position: relative;
   width: 300px;
   height: 200px;
-  background-color: rgb(255, 131, 49);
+  background-color: #015bff;
 }
 
 .et-h-g-s-cs{
@@ -463,7 +463,7 @@
   margin: -20% 0px;
   width: 300px;
   height: 200px;
-  background-color: rgb(255, 131, 49);
+  background-color: #015bff;
 }
 .et-h-g-s-cs-mob{
   position: inherit;

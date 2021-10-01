@@ -98,19 +98,19 @@ import bgm from '../../images/bg_marker.png'
                                     </div>
                                     <div className="col-md-3">
                                         <div className="">
-                                            <span className="fw-bold fs-1 lh-base">5000+</span>
+                                            <span className="fw-bold fs-1 lh-base">200+</span>
                                             <p className="fw-bold fs-5 lh-base">Residential Projects</p>
                                         </div>
                                     </div>
                                     <div className="col-md-3">
                                         <div className="">
-                                            <span className="fw-bold fs-1 lh-base">1500+</span>
+                                            <span className="fw-bold fs-1 lh-base">100+</span>
                                             <p className="fw-bold fs-5 lh-base">Commercial Projects</p>
                                         </div>
                                     </div>
                                     <div className="col-md-2">
                                         <div className="">
-                                            <span className="fw-bold fs-1 lh-base">1000+</span>
+                                            <span className="fw-bold fs-1 lh-base">50+</span>
                                             <p className="fw-bold fs-5 lh-base">Industrial Projects</p>
                                         </div>
                                     </div>

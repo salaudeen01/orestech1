@@ -6,7 +6,7 @@
 }
 
 .border-left{
-  border-left: 10px solid rgb(255, 131, 49);
+  border-left: 10px solid #015bff;
 }
 .position-relative{
   position: relative;
@@ -16,7 +16,7 @@
   min-width: 160px;
   height: 50px;
   color: white;
-  background-color: rgb(255, 131, 49);
+  background-color: #015bff;
   border: none;
   border-radius: 5px;
   padding: 12px 15px;
@@ -25,9 +25,9 @@
 }
 .button-orng:hover{
   transition: 0.5s ease-in-out;
-  color: rgb(255, 131, 49);
+  color: #015bff;
   background-color: white;
-  border: 1px solid rgb(255, 131, 49);
+  border: 1px solid #015bff;
 }
 
 
@@ -50,7 +50,7 @@
 }
 .cart{color: white;}
 .icon, .cart:hover, .dropdown-content a:hover{
-    color: rgb(255, 131, 49);
+    color: #015bff;
     transition: 0.5s ease-in-out;
 }
 
@@ -65,14 +65,14 @@
   color: rgb(58, 54, 54);
 }
 .navbar-nav .nav-item .nav-link:hover,.navbar-nav .nav-item .nav-link.active{
-  color: rgb(255, 131, 49);
+  color: #015bff;
   transition: 0.1s ease-in-out;
 }
 .nav-link-button{
   width: 160px;
   height: 50px;
   color: white;
-  background-color: rgb(255, 131, 49);
+  background-color: #015bff;
   border: none;
   border-radius: 5px;
   margin-top: 5px;
@@ -82,9 +82,9 @@
 }
 .nav-link-button:hover{
   transition: 0.5s ease-in-out;
-  color: rgb(255, 131, 49);
+  color: #015bff;
   background-color: white;
-  border: 1px solid rgb(255, 131, 49);
+  border: 1px solid #015bff;
 }
 
 
@@ -120,7 +120,7 @@
   margin-top: -5px;
 }
 .cart-icon:hover{
-  color: rgb(255, 131, 49);
+  color: #015bff;
 }
 
 

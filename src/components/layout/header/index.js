@@ -41,8 +41,8 @@ function TopBar({active}) {
         <div className="ff-pop">
             <nav id="navbar" className="navbar navbar-expand-lg navbar-light bg-light px-md-5" style={{minHeight:'80px'}}>
                 <div className="container-fluid">
-                    <Link to="/" className="d-none d-md-block navbar-brand fw-bold" href="#"><img src="resources/images/logo.png" alt="logo" width="30px" height="50px" /><span>OresTech</span></Link>
-                    <Link to="/" className="d-block d-md-none navbar-brand-mob fw-bold" href="#"><img src="resources/images/logo.png" alt="logo" width="25px" height="40px" /><span>Electrician</span></Link>
+                    <Link to="/" className="d-none d-md-block navbar-brand fw-bold" href="#"><img src="resources/images/logo.png" alt="logo" width="30px" height="50px" /><span>Orestech</span></Link>
+                    <Link to="/" className="d-block d-md-none navbar-brand-mob fw-bold" href="#"><img src="resources/images/logo.png" alt="logo" width="25px" height="40px" /><span>Orestech</span></Link>
                     
                     <Link className="d-block d-md-none cart-icon fs-3 up-smo"><ShoppingCartOutlined/></Link>
                     <button className="navbar-toggler border-0 m-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
