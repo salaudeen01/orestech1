@@ -12,7 +12,7 @@ function Top() {
                    </span> */}
                    <span className="mx-5">
                        <span className="icon fas fa-envelope px-2"/> 
-                       <span>oresttech@gmail.com</span>
+                       <a href="mail:oresttech@gmail.com">oresttech@gmail.com</a>
                    </span>
                    <span>
                        <span className="icon far fa-clock px-2"/> 
@@ -21,7 +21,7 @@ function Top() {
                 </div>
                 <div className="float-end">
                     <span className="">
-                      <a href="tel:1 (800) 765-43-21" className="text-decoration-none">
+                      <a href="tel:+234 (081) 270-162-92" className="text-decoration-none">
                        <span className="text-white fa fa-phone px-4"/> 
                        <span className="icon fw-bold">+234 (081) 270-162-92</span>
                       </a>
